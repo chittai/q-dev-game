@@ -1,0 +1,42 @@
+# OS固有のファイル
+.DS_Store
+Thumbs.db
+
+# エディタ固有のファイル
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# 依存関係ディレクトリ
+node_modules/
+vendor/
+bower_components/
+
+# ビルド成果物
+dist/
+build/
+out/
+target/
+
+# ログファイル
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 環境設定ファイル
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# キャッシュディレクトリ
+.cache/
+.qchat/
+
+# その他
+*.bak
+*.swp
+*.swo
